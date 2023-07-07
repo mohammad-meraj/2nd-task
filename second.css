@@ -24,3 +24,37 @@
     color: #000;
     
 }
+.banner{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-image: url("./images/background.png"), linear-gradient(45deg,rgb(8,8,8) ,black);
+    color: white;
+} 
+h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+button{
+    width: 150px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+button:hover{
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border: 1px solid rgb(255, 255, 255);
+
+}
