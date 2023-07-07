@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navigation{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.n-ver{
+    display: flex;
+    list-style: none;
+}
+.item{
+    margin-left: 50px;
+    font-size: 20px;
+    padding: 10px;
+}
+.item:hover{
+    background-color: azure;
+    color: #000;
+    
+}
